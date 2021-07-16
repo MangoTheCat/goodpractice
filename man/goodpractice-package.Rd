@@ -17,11 +17,20 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Hannah Frick \email{hfrick@mango-solutions.com}
+\strong{Maintainer}: Daniel de Bortoli \email{daniel.debortoli@mango-solutions.com}
 
 Authors:
 \itemize{
   \item Gabor Csardi \email{csardi.gabor@gmail.com}
+  \item Hannah Frick \email{hfrick@mango-solutions.com}
+  \item Owen Jones \email{owenjonesuob@gmail.com} (owenjonesuob)
+  \item Hannah Alexander \email{halexander@mango-solutions.com}
+}
+
+Other contributors:
+\itemize{
+  \item Mango Solutions (MangoTheCat) [copyright holder]
+  \item Fabian Scheipl (fabian-s) [contributor]
 }
 
 }

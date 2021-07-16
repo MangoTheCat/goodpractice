@@ -1,22 +1,41 @@
 Package: goodpractice
 Title: Advice on R Package Building
-Version: 1.0.2.9000
-Authors@R: c(person("Gabor", "Csardi", email = "csardi.gabor@gmail.com",
-    role = c("aut")),
-    person("Hannah", "Frick", email = "hfrick@mango-solutions.com", 
-    role = c("aut", "cre")))
+Version: 1.0.2.9004
+Authors@R:
+    c(person(given = "Mango Solutions",
+             role = "cph",
+             comment = c(GitHub = "MangoTheCat")),
+      person(given = "Daniel",
+             family = "de Bortoli",
+             role = c("aut", "cre"),
+             email = "daniel.debortoli@mango-solutions.com"),
+      person(given = "Gabor",
+             family = "Csardi",
+             role = "aut",
+             email = "csardi.gabor@gmail.com"),
+      person(given = "Hannah",
+             family = "Frick",
+             role = "aut",
+             email = "hfrick@mango-solutions.com"),
+      person(given = "Owen",
+             family = "Jones",
+             role = "aut",
+             email = "owenjonesuob@gmail.com",
+             comment = c(GitHub = "owenjonesuob")),
+      person(given = "Hannah",
+             family = "Alexander",
+             role = "aut",
+             email = "halexander@mango-solutions.com"),
+      person(given = "Fabian",
+             family = "Scheipl",
+             role = "ctb",
+             comment = c(GitHub = "fabian-s")))
 Description: Give advice about good practices when building R packages.
-    Advice includes functions and syntax to avoid, package structure,
-    code complexity, code formatting, etc.
+    Advice includes functions and syntax to avoid, package structure, code
+    complexity, code formatting, etc.
 License: MIT + file LICENSE
-LazyData: true
 URL: https://github.com/mangothecat/goodpractice
 BugReports: https://github.com/mangothecat/goodpractice/issues
-RoxygenNote: 6.0.1
-Suggests:
-    testthat,
-    knitr,
-    rmarkdown
 Imports:
     clisymbols,
     covr,
@@ -34,7 +53,17 @@ Imports:
     withr,
     xml2,
     xmlparsedata (>= 1.0.1)
-Collate:
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Collate: 
     'api.R'
     'customization.R'
     'lists.R'
@@ -58,4 +87,3 @@ Collate:
     'print.R'
     'rstudio_markers.R'
     'utils.R'
-VignetteBuilder: knitr
